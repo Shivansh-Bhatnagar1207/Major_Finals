@@ -1,3 +1,5 @@
+
+
 {
   "expo": {
     "name": "VitalizeMe",
@@ -15,7 +17,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shivansh_bhatnagar.VitalizeMe"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +39,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "923a04f2-a11c-4523-91b0-d0b7da0a00db"
+      }
     }
   }
 }
